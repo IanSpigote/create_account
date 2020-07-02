@@ -50,10 +50,9 @@ class CreateAccount{
     result(){
         if (this.allRight === true){
             this.usuarios.push(this.newUser);
-            return alert("Usuário criado com sucesso!");
+            return window.location.replace("http://127.0.0.1:5500/src/htmls/welcome.html");
         };
     };
 }
 
 const a = new CreateAccount();
- 

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    background-color: #323232;
+    padding-top: 10vh;
+}
+div{
+    width: 500px;
+    margin: auto;
+    background-color:#282828;
+    border-radius: 10px;
+    padding: 3%;
+    align-items: center;
+}
+h2{
+    color: #ff5115;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 45px;
+}
+p{
+font-size: 24px;
+margin-bottom: 25px;
+}
+.link{
+    width: auto;
+    text-align:center;
+}
+.link .ok{
+    color: #ff5115;
+    font-size: 20px;
+}
